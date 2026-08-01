@@ -11,7 +11,7 @@ class Solution {
             xor1 ^= i;
         }
 
-        // XOR of array
+        //  XOR of array
         for (int num : arr) {
             xor2 ^= num;
         }
