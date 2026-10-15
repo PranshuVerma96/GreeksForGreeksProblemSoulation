@@ -1,0 +1,13 @@
+# [Insert at Bottom of Stack](https://www.geeksforgeeks.org/problems/insert-an-element-at-the-bottom-of-a-stack/1)
+## Easy
+Given a stack st containing n integers and an integer x, insert x at the bottom of the stack.
+ 
+Note: While displaying the stack, the bottommost element is printed first.
+Examples :
+Input: st = [4, 3, 2, 1, 8], x = 2
+Output: [2, 4, 3, 2, 1, 8]
+Explanation: After insertion of 2, the final stack will be [2,4,3,2,1,8].
+Input: st = [5, 3, 1], x = 4
+Output: [4, 5, 3, 1]
+Explanation: After insertion of 4, the final stack will be [4,5,3,1].
+Constraints:1&nbsp;≤ n&nbsp;≤&nbsp;1050&nbsp;≤ x, elements of stack&nbsp;≤&nbsp;109
