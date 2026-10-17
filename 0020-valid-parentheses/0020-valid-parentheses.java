@@ -7,7 +7,7 @@ class Solution {
 
         for (char ch : s.toCharArray()) {
 
-            // If opening bracket, push onto stack
+            //  If opening bracket, push onto stack
             if (ch == '(' || ch == '[' || ch == '{') {
                 st.push(ch);
             } 
