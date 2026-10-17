@@ -15,6 +15,7 @@ class Solution {
                 // If stack is empty, no matching opening bracket
                 if (st.isEmpty()) {
                     return false;
+                    
                 }
 
                 // Check matching brackets
