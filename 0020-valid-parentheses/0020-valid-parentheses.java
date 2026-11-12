@@ -7,7 +7,7 @@ class Solution {
 
         for (char ch : s.toCharArray()) {
 
-            //  If opening bracket, push onto stack
+            // If opening bracket, push onto stack
             if (ch == '(' || ch == '[' || ch == '{') {
                 st.push(ch);
             } 
@@ -15,7 +15,6 @@ class Solution {
                 // If stack is empty, no matching opening bracket
                 if (st.isEmpty()) {
                     return false;
-                    
                 }
 
                 // Check matching brackets
