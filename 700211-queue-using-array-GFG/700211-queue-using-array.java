@@ -34,22 +34,19 @@ class myQueue {
 	}
 	
 	public void enqueue(int x) {
-		// Enqueue
-		if (isFull()) {
-			return ;
-		}
-		else {
-			rear ++;
-			arr[rear] = x;
-			size++;
-		}
+		if (isFull())
+			return;
+		
+		rear = (rear + 1) % capacity;
+		arr[rear] = x;
+		size++;
 	}
 	
 	public void dequeue() {
 		if (isEmpty())
 			return;
 		
-		front++;
+		front = (front + 1) % capacity;
 		size--;
 	}
 	
